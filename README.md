@@ -301,3 +301,52 @@ Main responsibilities:
 - Google Maps SDK
 - Google Places SDK (Autocomplete, Nearby Search)
 - Google Directions API (routes, distance, duration)
+
+---
+
+## Screenshots
+
+### Home
+
+<p float="left">
+  <img width="400" alt="autocomplete" src="https://github.com/user-attachments/assets/06577588-66f5-4426-aaa8-4d0acdb66e20" />
+  <img width="400" alt="autocomplete_results" src="https://github.com/user-attachments/assets/6242ddfd-38dd-4aae-9f86-9e9467ab70f2" />
+  <img width="400" alt="favorites" src="https://github.com/user-attachments/assets/db293557-32fd-421c-91ce-09c3f7e9d4fa" />
+  <img width="400" alt="baskets" src="https://github.com/user-attachments/assets/fc732f3f-dda7-4cf2-9095-1c6c815e3a80" />
+</p>
+
+### Location
+
+<p float="left">
+  <img width="400" alt="autocomplete" src="https://github.com/user-attachments/assets/52176cd6-034f-4f9a-b427-7ce98bf82f91" />
+  <img width="400" alt="autocomplete_results" src="https://github.com/user-attachments/assets/1f09fe6c-a412-45a5-9992-22a41daf7b8e" />
+  <img width="400" alt="favorites" src="https://github.com/user-attachments/assets/e38b7792-ec80-4664-87fb-ca38a206cd73" />
+  <img width="400" alt="baskets" src="https://github.com/user-attachments/assets/8064507f-92cb-4532-abea-66d9310148b7" />
+</p>
+
+### Search
+
+<p float="left">
+  <img width="400" alt="autocomplete" src="https://github.com/user-attachments/assets/ea297bc5-a0e7-444c-8481-ef15dd2d95c0" />
+  <img width="400" alt="autocomplete_results" src="https://github.com/user-attachments/assets/9956bea3-6f42-4235-a753-992c1dc4f11f" />
+  <img width="400" alt="favorites" src="https://github.com/user-attachments/assets/f8834d27-1819-4e5d-9ec3-bf823a1cfa64" />
+  <img width="400" alt="baskets" src="https://github.com/user-attachments/assets/ee6ebd54-8903-4d50-917b-d3743eeb2bee" />
+</p>
+
+### Favorites
+
+<p float="left">
+  <img width="400" alt="autocomplete" src="https://github.com/user-attachments/assets/52120520-dbd6-447d-9e07-d2c39abdd217" />
+  <img width="400" alt="autocomplete_results" src="https://github.com/user-attachments/assets/5bd2468f-28ee-4ce5-b9b3-c058b4e74142" />
+  <img width="400" alt="favorites" src="https://github.com/user-attachments/assets/df824965-1fe8-4caf-9bcb-025080ddb956" />
+  <img width="400" alt="baskets" src="https://github.com/user-attachments/assets/3f5fb4cb-b5d9-40e3-8b23-2c127b4be43c" />
+</p>
+
+### Baskets
+
+<p float="left">
+  <img width="400" alt="autocomplete" src="https://github.com/user-attachments/assets/b5cb2b7a-eb5d-4c87-83d1-64ea37a97a26" />
+  <img width="400" alt="autocomplete_results" src="https://github.com/user-attachments/assets/d3741fc5-311d-4fe7-bda9-57dd195c1810" />
+  <img width="400" alt="favorites" src="https://github.com/user-attachments/assets/f1d2d293-6f56-4e68-a3e7-94d1783e60a0" />
+  <img width="400" alt="baskets" src="https://github.com/user-attachments/assets/fa5c1ddf-cd45-4cfb-b4f1-e9d37ce65e4d" />
+</p>
