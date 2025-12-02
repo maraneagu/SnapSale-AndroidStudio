@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stores_basket_types">
+        <item>meat</item>
+        <item>kitchen-essentials</item>
+        <item>fresh</item>
+        <item>sweets</item>
+        <item>cleaning</item>
+        <item>breakfast</item>
+        <item>coffee</item>
+        <item>party</item>
+        <item>pantry</item>
+        <item>self-care</item>
+        <item>pet-parent</item>
+    </string-array>
+</resources>

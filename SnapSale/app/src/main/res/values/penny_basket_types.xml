@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="penny_basket_types">
+        <item>fresh</item>
+        <item>meat</item>
+        <item>brunch</item>
+        <item>pantry</item>
+        <item>baking</item>
+        <item>breakfast</item>
+        <item>party</item>
+        <item>alcoholic-beverages</item>
+        <item>self-care</item>
+        <item>cleaning</item>
+        <item>baby</item>
+        <item>home-and-garden</item>
+    </string-array>
+</resources>

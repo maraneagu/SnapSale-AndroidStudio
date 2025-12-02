@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="google_translate_key"
+        templateMergeStrategy="preserve"
+        translatable="false">
+        AIzaSyBd_lXLvJOnmXe69cOm6w8S9Nxz_fqOTBQ</string>
+</resources>

@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="horizontal"
+    android:background="@drawable/lidl_bkg"
+
+    android:fitsSystemWindows="true"
+    tools:context=".activities.storeActivities.LidlActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="60dp"
+                android:layout_height="140dp"
+
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+
+                android:background="@drawable/lidl_category_top_end">
+
+                <ImageView
+                    android:layout_width="32.5dp"
+                    android:layout_height="32.5dp"
+
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="55dp"
+
+                    android:src="@drawable/lidl_logo_yellow_blue"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/lidl_category_btns"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/lidl_category_monday_btn"
+
+                        android:layout_width="60dp"
+                        android:layout_height="110dp"
+
+                        android:background="@drawable/lidl_category_btn">
+
+                        <TextView
+                            android:id="@+id/lidl_category_monday_text"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_centerInParent="true"
+                            android:rotation="-90"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="@string/monday"
+                            android:textColor="@color/yellow"
+                            android:textSize="11sp"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/lidl_pressed_monday_btn"
+                        android:visibility="gone"
+
+                        android:layout_width="45dp"
+                        android:layout_height="70dp"
+
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="-20dp"
+
+                        android:background="@drawable/lidl_pressed_btn">
+
+                        <ImageView
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/icon_dot_yellow"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/lidl_category_tuesday_btn"
+
+                        android:layout_width="60dp"
+                        android:layout_height="110dp"
+
+                        android:background="@drawable/lidl_category_btn">
+
+                        <TextView
+                            android:id="@+id/lidl_category_tuesday_text"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_centerInParent="true"
+                            android:rotation="-90"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="@string/tuesday"
+                            android:textColor="@color/yellow"
+                            android:textSize="11sp"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/lidl_pressed_tuesday_btn"
+                        android:visibility="gone"
+
+                        android:layout_width="45dp"
+                        android:layout_height="70dp"
+
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="-20dp"
+
+                        android:background="@drawable/lidl_pressed_btn">
+
+                        <ImageView
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/icon_dot_yellow"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/lidl_category_thursday_btn"
+
+                        android:layout_width="60dp"
+                        android:layout_height="110dp"
+
+                        android:background="@drawable/lidl_category_btn">
+
+                        <TextView
+                            android:id="@+id/lidl_category_thursday_text"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_centerInParent="true"
+                            android:rotation="-90"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="@string/thursday"
+                            android:textColor="@color/yellow"
+                            android:textSize="11sp"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/lidl_pressed_thursday_btn"
+                        android:visibility="gone"
+
+                        android:layout_width="45dp"
+                        android:layout_height="70dp"
+
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="-20dp"
+
+                        android:background="@drawable/lidl_pressed_btn">
+
+                        <ImageView
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/icon_dot_yellow"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/lidl_category_weekend_btn"
+
+                        android:layout_width="60dp"
+                        android:layout_height="110dp"
+
+                        android:background="@drawable/lidl_category_btn">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_centerInParent="true"
+                            android:rotation="-90"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="@string/weekend"
+                            android:textColor="@color/yellow"
+                            android:textSize="11sp"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/lidl_pressed_weekend_btn"
+                        android:visibility="gone"
+
+                        android:layout_width="45dp"
+                        android:layout_height="70dp"
+
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="-20dp"
+
+                        android:background="@drawable/lidl_pressed_btn">
+
+                        <ImageView
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/icon_dot_yellow"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/lidl_category_market_btn"
+
+                        android:layout_width="60dp"
+                        android:layout_height="110dp"
+
+                        android:background="@drawable/lidl_category_btn">
+
+                        <TextView
+                            android:id="@+id/lidl_category_market_text"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_centerInParent="true"
+                            android:rotation="-90"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="@string/market"
+                            android:textColor="@color/yellow"
+                            android:textSize="11sp"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/lidl_pressed_market_btn"
+                        android:visibility="gone"
+
+                        android:layout_width="45dp"
+                        android:layout_height="70dp"
+
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="-20dp"
+
+                        android:background="@drawable/lidl_pressed_btn">
+
+                        <ImageView
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/icon_dot_yellow"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/lidl_category_price_btn"
+
+                        android:layout_width="60dp"
+                        android:layout_height="110dp"
+
+                        android:background="@drawable/lidl_category_btn">
+
+                        <TextView
+                            android:id="@+id/lidl_category_price_text"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_centerInParent="true"
+                            android:rotation="-90"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="@string/lidl_price"
+                            android:textColor="@color/yellow"
+                            android:textSize="11sp"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/lidl_pressed_price_btn"
+                        android:visibility="gone"
+
+                        android:layout_width="45dp"
+                        android:layout_height="70dp"
+
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="-20dp"
+
+                        android:background="@drawable/lidl_pressed_btn">
+
+                        <ImageView
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/icon_dot_yellow"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/lidl_category_plus_btn"
+
+                        android:layout_width="60dp"
+                        android:layout_height="110dp"
+
+                        android:background="@drawable/lidl_category_btn">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_centerInParent="true"
+                            android:rotation="-90"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="@string/lidl_plus"
+                            android:textColor="@color/yellow"
+                            android:textSize="11sp"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/lidl_pressed_plus_btn"
+                        android:visibility="gone"
+
+                        android:layout_width="45dp"
+                        android:layout_height="70dp"
+
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="-20dp"
+
+                        android:background="@drawable/lidl_pressed_btn">
+
+                        <ImageView
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/icon_dot_yellow"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/lidl_category_bottom_end">
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/lidl_nested_scroll_view"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/lidl_translate_btn"
+
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+
+                android:layout_gravity="end"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/lidl_translate_bkg">
+
+                <ImageView
+                    android:id="@+id/lidl_translate_flag"
+
+                    android:layout_width="20dp"
+                    android:layout_height="15dp"
+
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="30dp"
+
+                    android:src="@drawable/flag_uk" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lidl_text"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:id="@+id/lidl_hello_text"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="@string/hello"
+                    android:textColor="@color/yellow"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/lidl_explore_text"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lidl_hello_text"
+
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="@string/explore_lidl"
+                    android:textColor="@color/yellow"
+                    android:textSize="11sp" />
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/lidl_recycler_view"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="60dp"
+
+                android:scrollbars="none" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <include layout="@layout/lidl_progress_layout" />
+    <include layout="@layout/lidl_no_sales_layout" />
+</LinearLayout>

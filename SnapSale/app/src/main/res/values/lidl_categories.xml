@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lidl_categories">
+        <item>monday</item>
+        <item>tuesday</item>
+        <item>thursday</item>
+        <item>weekend</item>
+        <item>market</item>
+        <item>lidlPrice</item>
+        <item>lidlPlus</item>
+    </string-array>
+</resources>

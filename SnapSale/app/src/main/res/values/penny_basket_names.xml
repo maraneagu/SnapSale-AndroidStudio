@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="penny_basket_names">
+        <item>Farmer\'s Market Basket</item>
+        <item>Butcher\'s Bounty Basket</item>
+        <item>Weekend Brunch Basket</item>
+        <item>Pantry Essentials Basket</item>
+        <item>Baking Bonanza Basket</item>
+        <item>Healthy Start Breakfast Basket</item>
+        <item>Movie Marathon Basket</item>
+        <item>Mixologist\'s Mixer Basket</item>
+        <item>Self-Care Basket</item>
+        <item>Home Cleaning Arsenal</item>
+        <item>New Parent Pack</item>
+        <item>Home &amp; Garden Accessories Basket</item>
+    </string-array>
+</resources>

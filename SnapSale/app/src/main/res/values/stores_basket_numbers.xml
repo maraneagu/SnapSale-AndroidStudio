@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stores_basket_numbers">
+        <item>6 6 6 6</item>
+        <item>8 8 8</item>
+        <item>8 8</item>
+        <item>8 8 8</item>
+        <item>8 8 8</item>
+        <item>6 6 6 6</item>
+        <item>8 8</item>
+        <item>8 8 8</item>
+        <item>8 8 8</item>
+        <item>8 8</item>
+        <item>8 8</item>
+    </string-array>
+</resources>

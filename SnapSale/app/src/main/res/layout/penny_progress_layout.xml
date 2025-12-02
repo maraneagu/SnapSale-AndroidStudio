@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/penny_progress_layout"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:visibility="visible"
+
+    android:orientation="vertical"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/penny_progress_text"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp">
+
+        <TextView
+            android:id="@+id/hang_tight_text"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/hang_tight"
+            android:textColor="@color/darkOrange"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hang_tight_text"
+
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/your_sales_are_being_processed"
+            android:textColor="@color/darkOrange"
+            android:textSize="11sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/penny_progress_orange_bar"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:layout_below="@id/penny_progress_text"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp"
+
+        android:background="@drawable/penny_orange_bar_bkg" />
+
+    <RelativeLayout
+        android:id="@+id/penny_progress_bar_layout"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:elevation="2dp"
+        android:layout_below="@id/penny_progress_orange_bar"
+        android:layout_marginStart="20dp"
+
+        android:background="@drawable/penny_bar_bkg">
+
+        <LinearLayout
+            android:id="@+id/penny_progress_bar_li"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="30dp"
+
+                    android:src="@drawable/logo_profile"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp">
+
+                <ProgressBar
+                    android:id="@+id/penny_progress_bar_icon"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_centerHorizontal="true"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="12.5dp"
+                    android:minHeight="40dp"
+                    android:maxHeight="40dp"
+
+                    android:indeterminate="true"
+                    android:indeterminateTint="@color/yellow"
+                    android:elevation="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/penny_progress_bar_icon"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="7dp"
+
+                    android:fontFamily="@font/lexend_giga"
+                    android:text="@string/loading"
+                    android:textAlignment="center"
+                    android:textColor="@color/yellow"
+                    android:textSize="9sp"
+                    tools:ignore="SmallSp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
+
+            android:layout_below="@id/penny_progress_bar_li"
+            android:background="@drawable/penny_sale_price_bkg">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="55dp"
+
+                android:fontFamily="@font/lexend_giga"
+                android:text="@string/we_re_sorry_for_the_wait"
+                android:textColor="@color/lightYellow"
+                android:textSize="8sp"
+                tools:ignore="SmallSp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/penny_progress_red_bar"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:layout_below="@id/penny_progress_bar_layout"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="100dp"
+
+        android:background="@drawable/penny_red_bar_bkg" />
+</RelativeLayout>

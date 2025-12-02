@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nd_home"
+            android:title="@string/home"
+            android:icon="@drawable/icon_home"/>
+
+        <item
+            android:id="@+id/nd_search"
+            android:title="@string/search"
+            android:icon="@drawable/icon_search"/>
+
+        <item
+            android:id="@+id/nd_location"
+            android:title="@string/location"
+            android:icon="@drawable/icon_location"/>
+
+        <item
+            android:id="@+id/nd_favorites"
+            android:title="@string/favorites"
+            android:icon="@drawable/icon_heart_yellow"/>
+
+        <item
+            android:id="@+id/nd_baskets"
+            android:title="@string/baskets"
+            android:icon="@drawable/icon_basket_yellow"/>
+
+        <item
+            android:id="@+id/nd_profile"
+            android:title="@string/profile"
+            android:icon="@drawable/icon_person"/>
+    </group>
+</menu>

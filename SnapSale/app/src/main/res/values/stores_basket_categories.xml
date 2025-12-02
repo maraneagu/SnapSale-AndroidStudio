@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stores_basket_categories">
+        <item>meat meat meat meat</item>
+        <item>kitchen-essentials kitchen-essentials kitchen-essentials</item>
+        <item>vegetables fresh</item>
+        <item>sweets sweets sweets</item>
+        <item>cleaning cleaning cleaning</item>
+        <item>picnic breakfast breakfast charcuterie-essentials</item>
+        <item>coffee coffee</item>
+        <item>party party alcohol</item>
+        <item>pantry pantry cheese-products</item>
+        <item>self-care self-care</item>
+        <item>pet-parent pet-parent</item>
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="carrefour_basket_names">
+        <item>Fresh Delights Basket</item>
+        <item>Butcher\'s Bounty Basket</item>
+        <item>Morning Boost Basket</item>
+        <item>Pantry Essentials Basket</item>
+        <item>Kitchen Restock Starter Pack</item>
+        <item>Party Perfect Basket</item>
+        <item>Sweet Tooth Basket</item>
+        <item>Mocha Marvel Basket</item>
+        <item>Pet Pamper Basket</item>
+        <item>Sparkling Clean Basket</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lidl_basket_names">
+        <item>Savory Selection Sampler</item>
+        <item>Alcohol Aficionado Assortment</item>
+        <item>Kitchen Necessities Basket</item>
+        <item>Cheese Lover\'s Basket</item>
+        <item>Charcuterie Board Essentials Basket</item>
+        <item>Fresh Delights Basket</item>
+    </string-array>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="drawable_toolbar">20dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="kauflandFavoritesDimen">20dp</dimen>
+    <dimen name="carrefourFavoritesDimen">27.5dp</dimen>
+    <dimen name="lidlFavoritesDimen">40dp</dimen>
+    <dimen name="pennyFavoritesDimen">50dp</dimen>
+
+    <dimen name="kauflandHomeDimen">10dp</dimen>
+    <dimen name="carrefourHomeDimen">15dp</dimen>
+    <dimen name="lidlHomeDimen">21.5dp</dimen>
+    <dimen name="pennyHomeDimen">26.5dp</dimen>
+
+    <dimen name="itemDecorationSpacing">16dp</dimen>
+    <dimen name="storeLayoutMB">50dp</dimen>
+</resources>

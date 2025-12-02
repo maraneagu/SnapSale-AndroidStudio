@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lidl_category_names">
+        <item>Oferte de Luni</item>
+        <item>Oferte de Marți</item>
+        <item>Oferte de Joi</item>
+        <item>Super Weekend</item>
+        <item>Piața Lidl</item>
+        <item>Prețul Lidl</item>
+        <item>Ofertele săptămânale Lidl Plus</item>
+    </string-array>
+</resources>

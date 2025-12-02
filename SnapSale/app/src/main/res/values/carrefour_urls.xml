@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="carrefour_urls">
+        <item>https://carrefour.ro/catalogues/super-oferte/national/magazine?page=top-100&amp;l1Category=fresh</item>
+        <item>https://carrefour.ro/catalogues/super-oferte/national/magazine?page=top-100&amp;l1Category=lactate-mezeluri-si-oua</item>
+        <item>https://carrefour.ro/catalogues/super-oferte/national/magazine?page=top-100&amp;l1Category=lactate-mezeluri-si-oua</item>
+        <item>https://carrefour.ro/catalogues/super-oferte/national/magazine?page=top-100&amp;l1Category=lactate-mezeluri-si-oua</item>
+        <item>https://carrefour.ro/catalogues/super-oferte/national/magazine?page=top-100&amp;l1Category=bacanie-4</item>
+        <item>https://carrefour.ro/catalogues/super-oferte/national/magazine?page=top-100&amp;l1Category=bacanie-4</item>
+        <item>https://carrefour.ro/catalogues/super-oferte/national/magazine?page=top-100&amp;l1Category=ingrijire-personala-4</item>
+        <item>https://carrefour.ro/catalogues/super-oferte/national/magazine?page=top-100&amp;l1Category=bacanie-4</item>
+        <item>https://carrefour.ro/catalogues/super-oferte/national/magazine?page=top-100&amp;l1Category=bacanie-4</item>
+        <item>https://carrefour.ro/catalogues/super-oferte/national/magazine?page=top-100&amp;l1Category=bacanie-4</item>
+        <item>https://carrefour.ro/catalogues/super-oferte/national/magazine?page=top-100&amp;l1Category=bauturi-3</item>
+        <item>https://carrefour.ro/catalogues/super-oferte/national/magazine?page=top-100&amp;l1Category=bauturi-3</item>
+        <item>https://carrefour.ro/catalogues/super-oferte/national/magazine?page=top-100&amp;l1Category=ingrijire-personala-4</item>
+        <item>https://carrefour.ro/catalogues/super-oferte/national/magazine?page=top-100&amp;l1Category=curatenie-si-igiena</item>
+    </string-array>
+</resources>

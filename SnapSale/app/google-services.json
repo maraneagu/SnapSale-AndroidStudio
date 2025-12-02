@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "437334812953",
+    "project_id": "snapsale-f63ad",
+    "storage_bucket": "snapsale-f63ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437334812953:android:e665ab0dfd276cc2f57d88",
+        "android_client_info": {
+          "package_name": "com.example.snapsale"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY_UoDog-TAPU-_j5XXfsgqCDDE84-oRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

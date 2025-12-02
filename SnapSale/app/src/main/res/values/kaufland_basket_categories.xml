@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kaufland_basket_categories">
+        <item>vegetables</item>
+        <item>meat</item>
+        <item>meat bakedGoods drinks</item>
+        <item>fish vegetables bakedGoods</item>
+        <item>bakedGoods sweets drinks</item>
+        <item>meat vegetables dairy basics bakedGoods drinks</item>
+        <item>meat vegetables dairy bakedGoods sweets</item>
+        <item>sweets</item>
+        <item>coffee sweets</item>
+        <item>cleaning</item>
+        <item>cosmetics sweets</item>
+        <item>clothing</item>
+        <item>animals</item>
+    </string-array>
+</resources>

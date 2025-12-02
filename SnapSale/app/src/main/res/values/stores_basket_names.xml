@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stores_basket_names">
+        <item>Butcher\'s Bounty Basket</item>
+        <item>Culinary Essentials Bundle</item>
+        <item>Garden-Fresh Harvest Bundle</item>
+        <item>Dessert Delights Basket</item>
+        <item>Sparkle and Shine Basket</item>
+        <item>Morning Delights Basket</item>
+        <item>Coffee Corner Basket</item>
+        <item>Party Perfection Basket</item>
+        <item>Pantry Provisions Pack</item>
+        <item>Relaxation Basket</item>
+        <item>Pet Parent Paradise Pack</item>
+    </string-array>
+</resources>

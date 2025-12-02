@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="penny_basket_categories">
+        <item>vegetables</item>
+        <item>meat</item>
+        <item>vegetables dairy bakedGoods sweets</item>
+        <item>basics tins bakedGoods</item>
+        <item>dairy basics</item>
+        <item>meat vegetables dairy bakedGoods</item>
+        <item>frozenGoods bakedGoods sweets drinks</item>
+        <item>drinks</item>
+        <item>cosmetics sweets drinks</item>
+        <item>cleaning</item>
+        <item>baby</item>
+        <item>leisure</item>
+    </string-array>
+</resources>

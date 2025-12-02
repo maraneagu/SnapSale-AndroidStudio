@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alata</item>
+        <item>@font/amiko_bold</item>
+        <item>@font/b612_mono_bold</item>
+        <item>@font/caveat</item>
+        <item>@font/caveat_bold</item>
+        <item>@font/dancing_script</item>
+        <item>@font/droid_sans_bold</item>
+        <item>@font/lexend_deca</item>
+        <item>@font/lexend_exa</item>
+        <item>@font/lexend_giga</item>
+        <item>@font/poppins</item>
+        <item>@font/poppins_bold</item>
+        <item>@font/poppins_extrabold</item>
+        <item>@font/poppins_italic</item>
+        <item>@font/poppins_medium</item>
+    </array>
+</resources>

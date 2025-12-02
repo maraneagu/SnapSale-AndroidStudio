@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@color/blueTransparent">
+
+    <RelativeLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+
+        android:layout_centerInParent="true"
+        android:padding="15dp"
+
+        android:background="@drawable/profile_guest_redirect_sign_up_bkg">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerInParent="true"
+            android:padding="40dp"
+
+            android:background="@drawable/profile_guest_blue_border_bkg">
+
+            <TextView
+                android:id="@+id/profile_guest_register_text"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerHorizontal="true"
+
+                android:fontFamily="@font/poppins_bold"
+                android:text="@string/register"
+                android:textSize="18sp"
+                android:textColor="@color/blue"
+                />
+
+            <TextView
+                android:id="@+id/profile_guest_unlock_text"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/profile_guest_register_text"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+
+                android:fontFamily="@font/lexend_giga"
+                android:text="@string/unlock_all_of_the_features"
+                android:textColor="@color/middleBlue"
+                android:textSize="9sp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                tools:ignore="SmallSp" />
+
+            <ImageView
+                android:id="@+id/profile_guest_logo"
+
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/profile_guest_unlock_text"
+                android:layout_marginTop="30dp"
+
+                android:src="@drawable/logo_blue"/>
+
+            <TextView
+                android:id="@+id/profile_guest_sign_up_button"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/profile_guest_logo"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginTop="25dp"
+
+                android:fontFamily="@font/lexend_giga"
+                android:text="@string/sign_up"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="11sp"
+                android:textColor="@color/blue"
+                tools:ignore="SmallSp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <com.example.snapsale.navigation.CustomBottomNavigationView
+        android:id="@+id/profile_guest_navigation_bar"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/favorites_navigation_bar_bkg"
+        android:elevation="2dp"
+        app:itemIconSize="25dp"
+        app:itemIconTint="@drawable/navigation_bar_item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/bottom_menu" />
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="carrefour_categories">
+        <item>fresh</item>
+        <item>meat</item>
+        <item>frozenGoods</item>
+        <item>dairy</item>
+        <item>basics</item>
+        <item>tins</item>
+        <item>baby</item>
+        <item>sweets</item>
+        <item>coffee</item>
+        <item>animals</item>
+        <item>drinks</item>
+        <item>juices</item>
+        <item>cosmetics</item>
+        <item>cleaning</item>
+    </string-array>
+</resources>

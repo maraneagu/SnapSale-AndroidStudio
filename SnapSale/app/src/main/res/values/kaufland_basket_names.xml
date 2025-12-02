@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kaufland_basket_names">
+        <item>A Fresh Taste Basket</item>
+        <item>Meat Lover\'s Delight Basket</item>
+        <item>Grill Master\'s Delight Basket</item>
+        <item>Seafood Extravaganza Basket</item>
+        <item>Cheat Day Basket</item>
+        <item>Kitchen Starter Basket</item>
+        <item>Picnic Basket</item>
+        <item>Sweet Tooth Basket</item>
+        <item>Coffee Lover\'s Basket</item>
+        <item>Weekend Cleaning Basket</item>
+        <item>Spa Day Basket</item>
+        <item>Wardrobe Renewal Basket</item>
+        <item>Pet Parent Basket</item>
+    </string-array>
+</resources>

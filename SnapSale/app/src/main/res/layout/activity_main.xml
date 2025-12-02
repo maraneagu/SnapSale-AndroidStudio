@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/main_bkg"
+    tools:context=".activities.authentificationActivities.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+
+        android:background="@drawable/middle_orange_border_bkg">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/start_btn"
+        android:background="@drawable/main_btn"
+
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginBottom="100dp"
+
+        android:drawableBottom="@drawable/icon_arrow_bottom"
+        android:drawableTint="@color/lightYellow"/>
+</RelativeLayout>

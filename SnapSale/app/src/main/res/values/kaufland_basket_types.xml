@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kaufland_basket_types">
+        <item>vegetables</item>
+        <item>meat</item>
+        <item>bbq</item>
+        <item>seafood</item>
+        <item>cheat-day</item>
+        <item>kitchen-essentials</item>
+        <item>picnic</item>
+        <item>sweets</item>
+        <item>coffee</item>
+        <item>cleaning</item>
+        <item>self-care</item>
+        <item>wardrobe</item>
+        <item>pet-parent</item>
+    </string-array>
+</resources>

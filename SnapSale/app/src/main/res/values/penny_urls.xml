@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="penny_urls">
+        <item>categoryroot=3f7b179f-d58a-48fa-9266-f1247ee3a32c</item>
+        <item>categoryroot=7203a5f6-8a4e-4f2e-a56e-81406dc55bbb</item>
+        <item>categoryroot=0c9954bf-ecaa-40b1-9cde-23b3d804fb35</item>
+        <item>categoryroot=c04d8375-b7d8-4c33-8803-df31baeae43c</item>
+        <item>categoryroot=aba94c9b-1f10-45fe-ab1a-1bc0e6e20c22</item>
+        <item>categoryroot=3830a44b-5fde-4dab-b462-07abea7b7379</item>
+        <item>categoryroot=907f24c2-2f02-48a5-8a2b-15d09e4d6844</item>
+        <item>categoryroot=85afae41-6c00-41ff-8716-405eaabc9938</item>
+        <item>categoryroot=1eaefb15-0a70-44cd-b4e2-e3af1d4c2414</item>
+        <item>categoryroot=2d96b4e3-e6d7-41ad-b179-94be02aa1f7b</item>
+        <item>categoryroot=16feaffb-e779-43c3-ab92-136b40f86b1f</item>
+        <item>categoryroot=c34958a4-1f3d-4e00-8d41-d8240352bde0</item>
+        <item>categoryroot=7f9c7e84-43e5-408d-91b8-015fbf365151</item>
+    </string-array>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kaufland_urls">
+        <item>https://www.kaufland.ro/oferte/oferte-saptamanale/saptamana-curenta.category=01_Carne__mezeluri.html</item>
+        <item>https://www.kaufland.ro/oferte/oferte-saptamanale/saptamana-curenta.category=01a_Legume__fructe__flori.html</item>
+        <item>https://www.kaufland.ro/oferte/oferte-saptamanale/saptamana-curenta.category=02_Pe%C8%99te.html</item>
+        <item>https://www.kaufland.ro/oferte/oferte-saptamanale/saptamana-curenta.category=03_Lactate__ou%C4%83.html</item>
+        <item>https://www.kaufland.ro/oferte/oferte-saptamanale/saptamana-curenta.category=04_Delicatese__congelate.html</item>
+        <item>https://www.kaufland.ro/oferte/oferte-saptamanale/saptamana-curenta.category=05_Alimente_de_baz%C4%83.html</item>
+        <item>https://www.kaufland.ro/oferte/oferte-saptamanale/saptamana-curenta.category=06_Brut%C4%83rie.html</item>
+        <item>https://www.kaufland.ro/oferte/oferte-saptamanale/saptamana-curenta.category=08_Cafea_%C8%99i_ceai.html</item>
+        <item>https://www.kaufland.ro/oferte/oferte-saptamanale/saptamana-curenta.category=09_Dulciuri__snackuri.html</item>
+        <item>https://www.kaufland.ro/oferte/oferte-saptamanale/saptamana-curenta.category=10_B%C4%83uturi.html</item>
+        <item>https://www.kaufland.ro/oferte/oferte-saptamanale/saptamana-curenta.category=11_Cosmetice__%C3%AEngrijire.html</item>
+        <item>https://www.kaufland.ro/oferte/oferte-saptamanale/saptamana-curenta.category=12_Cur%C4%83%C8%9Benie__detergen%C8%9Bi.html</item>
+        <item>https://www.kaufland.ro/oferte/oferte-saptamanale/saptamana-curenta.category=13_Electro__birou.html</item>
+        <item>https://www.kaufland.ro/oferte/oferte-saptamanale/saptamana-curenta.category=14_Gospod%C4%83rie.html</item>
+        <item>https://www.kaufland.ro/oferte/oferte-saptamanale/saptamana-curenta.category=15_Haine__pantofi__accesorii.html</item>
+        <item>https://www.kaufland.ro/oferte/oferte-saptamanale/saptamana-curenta.category=16_Bebelu%C8%99i__copii__juc%C4%83rii.html</item>
+        <item>https://www.kaufland.ro/oferte/oferte-saptamanale/saptamana-curenta.category=17_Animale.html</item>
+        <item>https://www.kaufland.ro/oferte/oferte-saptamanale/saptamana-curenta.category=18_Auto__sport__timp_liber.html</item>
+    </string-array>
+</resources>

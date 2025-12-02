@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lidl_basket_types">
+        <item>meat</item>
+        <item>alcoholic-beverages</item>
+        <item>kitchen-essentials</item>
+        <item>dairy-products</item>
+        <item>charcuterie-essentials</item>
+        <item>vegetables</item>
+    </string-array>
+</resources>

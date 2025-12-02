@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:id="@+id/carrefour_sale_layout"
+
+    android:elevation="2dp"
+    android:layout_marginBottom="80dp"
+    android:background="@drawable/store_sale_bkg">
+
+    <RelativeLayout
+        android:id="@+id/carrefour_sale_favorite_period_layout"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingTop="22.50dp"
+        android:paddingBottom="22.5dp"
+
+        android:layout_alignParentTop="true"
+        android:background="@drawable/carrefour_sale_period_bkg">
+
+        <ImageView
+            android:id="@+id/carrefour_sale_favorite"
+
+            android:layout_width="17.5dp"
+            android:layout_height="17.5dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="50dp" />
+
+        <TextView
+            android:id="@+id/carrefour_sale_period"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+
+            android:fontFamily="@font/lexend_deca"
+            android:text="@string/period"
+            android:textColor="@color/lightYellow"
+            android:textSize="8.75sp"
+            tools:ignore="SmallSp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/carrefour_sale_itsq_layout"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        android:layout_below="@id/carrefour_sale_favorite_period_layout">
+
+        <RelativeLayout
+            android:id="@+id/carrefour_sale_image_layout"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="40dp">
+
+            <ImageView
+                android:id="@+id/carrefour_sale_image"
+
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:contentDescription="@string/image"
+
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/carrefour_sale_tsq_layout"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:gravity="center"
+
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp">
+
+            <TextView
+                android:id="@+id/carrefour_sale_title"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="7dp"
+
+                android:fontFamily="@font/lexend_giga"
+                android:text="@string/title"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@color/darkBlue"
+                android:textSize="11.5sp"
+                android:breakStrategy="simple"/>
+
+            <TextView
+                android:id="@+id/carrefour_sale_quantity"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/carrefour_sale_title"
+                android:layout_centerHorizontal="true"
+
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/quantity"
+                android:textAlignment="center"
+                android:textColor="@color/darkGray"
+                android:textSize="9sp"
+                tools:ignore="SmallSp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/carrefour_sale_tsq_progress_layout"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:gravity="center"
+            android:visibility="gone"
+
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp">
+
+            <ProgressBar
+                android:id="@+id/carrefour_tsq_progress_bar_icon"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="12.5dp"
+                android:minHeight="40dp"
+                android:maxHeight="40dp"
+
+                android:indeterminate="true"
+                android:indeterminateTint="@color/darkBlue"
+                android:elevation="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/carrefour_tsq_progress_bar_icon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="7dp"
+
+                android:fontFamily="@font/lexend_giga"
+                android:text="@string/loading"
+                android:textAlignment="center"
+                android:textColor="@color/darkBlue"
+                android:textSize="9sp"
+                tools:ignore="SmallSp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/carrefour_sale_price_layout"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+
+        android:layout_below="@id/carrefour_sale_itsq_layout"
+        android:background="@drawable/carrefour_sale_price_bkg">
+
+        <TextView
+            android:id="@+id/carrefour_sale_new_price"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="50dp"
+
+            android:fontFamily="@font/lexend_giga"
+            android:text="@string/new_price"
+            android:textColor="@color/red"
+            android:textSize="11.5sp"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp">
+
+            <TextView
+                android:id="@+id/carrefour_sale_discount"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="2dp"
+
+                android:fontFamily="@font/lexend_deca"
+                android:text="@string/discount"
+                android:textColor="@color/red"
+                android:textAlignment="center"
+                android:textSize="10sp"
+                tools:ignore="SmallSp" />
+
+            <TextView
+                android:id="@+id/carrefour_sale_old_price"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/carrefour_sale_discount"
+                android:layout_centerHorizontal="true"
+
+                android:fontFamily="@font/lexend_giga"
+                android:text="@string/old_price"
+                android:textColor="@color/red"
+                android:textAlignment="center"
+                android:textSize="11sp"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

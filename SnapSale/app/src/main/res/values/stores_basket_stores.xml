@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stores_basket_stores">
+        <item>kaufland lidl carrefour penny</item>
+        <item>kaufland lidl carrefour</item>
+        <item>kaufland penny</item>
+        <item>kaufland lidl carrefour</item>
+        <item>kaufland carrefour penny</item>
+        <item>kaufland carrefour penny lidl</item>
+        <item>kaufland carrefour</item>
+        <item>carrefour penny lidl</item>
+        <item>carrefour penny lidl</item>
+        <item>kaufland penny</item>
+        <item>kaufland carrefour</item>
+    </string-array>
+</resources>

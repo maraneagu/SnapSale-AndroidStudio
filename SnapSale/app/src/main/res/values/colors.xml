@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BASIC COLORS -->
+    <color name="lightTransparent">#8AFFFFFF</color>
+    <color name="semiTransparent">#3FFF</color>
+    <color name="blueTransparent">#BF0F1722</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="lightGray">#F4EAEA</color>
+    <color name="gray">#EAE4E4</color>
+    <color name="darkGray">#424141</color>
+    <color name="black">#000000</color>
+
+    <!-- THEME COLORS -->
+    <color name="lightestYellow">#FFE7CC</color>
+    <color name="lightYellow">#F8CF9E</color>
+    <color name="yellowish">#FFC886</color>
+    <color name="yellow">#FAC079</color>
+    <color name="middleYellow">#FAB862</color>
+    <color name="mustardYellow">#FFB152</color>
+    <color name="darkYellow">#E4A756</color>
+
+    <color name="lightestOrange">#FAC1A2</color>
+    <color name="lightOrange">#F49767</color>
+    <color name="orange">#F07B3F</color>
+    <color name="middleOrange">#DF5108</color>
+    <color name="darkOrange">#BB4509</color>
+    <color name="darkerOrange">#873004</color>
+
+    <color name="lightestSalmon">#FBB8B9</color>
+    <color name="lightSalmon">#EC7E7F</color>
+    <color name="salmon">#E4595A</color>
+    <color name="middleSalmon">#E63A3B</color>
+    <color name="darkSalmon">#DF2A2B</color>
+    <color name="darkerSalmon">#E11F20</color>
+
+    <color name="red">#BC0607</color>
+    <color name="darkRed">#A30203</color>
+    <color name="darkerRed">#8F0204</color>
+
+    <color name="green">#B4D4AC</color>
+    <color name="middleGreen">#779571</color>
+    <color name="darkGreen">#39632F</color>
+    <color name="darkerGreen">#233E1D</color>
+
+    <color name="lightestBlue">#8FBDFA</color>
+    <color name="lighterBlue">#5383C1</color>
+    <color name="lightBlue">#385983</color>
+    <color name="blue">#2D4059</color>
+    <color name="bluer">#22364E</color>
+    <color name="middleBlue">#1A2533</color>
+    <color name="darkBlue">#0F1722</color>
+</resources>

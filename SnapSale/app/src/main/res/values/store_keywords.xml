@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="store_keywords">
+        <item>kaufland</item>
+        <item>lidl</item>
+        <item>penny</item>
+        <item>carrefour</item>
+        <item>stores</item>
+    </string-array>
+</resources>

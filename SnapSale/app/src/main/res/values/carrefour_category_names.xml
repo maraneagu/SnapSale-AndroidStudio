@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="carrefour_category_names">
+        <item>legume</item>
+        <item>mezeluri</item>
+        <item>congelate</item>
+        <item>lactate</item>
+        <item>fainoase</item>
+        <item>conserve</item>
+        <item>bebe</item>
+        <item>snacking</item>
+        <item>cafea</item>
+        <item>animale</item>
+        <item>bauturi</item>
+        <item>apa</item>
+        <item>corp</item>
+        <item>curatare</item>
+    </string-array>
+</resources>

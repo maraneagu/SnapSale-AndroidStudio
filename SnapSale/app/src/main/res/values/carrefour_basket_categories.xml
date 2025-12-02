@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="carrefour_basket_categories">
+        <item>fresh</item>
+        <item>meat fresh</item>
+        <item>meat dairy fresh coffee sweets juices</item>
+        <item>dairy basics tins</item>
+        <item>meat dairy fresh basics tins drinks juices sweets</item>
+        <item>frozenGoods sweets drinks juices</item>
+        <item>sweets coffee</item>
+        <item>coffee sweets</item>
+        <item>animals</item>
+        <item>cleaning</item>
+    </string-array>
+</resources>

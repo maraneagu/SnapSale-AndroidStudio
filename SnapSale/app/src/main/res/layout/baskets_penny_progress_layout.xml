@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/baskets_penny_progress_layout"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+
+        android:layout_centerInParent="true"
+        android:padding="15dp"
+
+        android:background="@drawable/baskets_penny_progress_bkg">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerInParent="true"
+            android:paddingTop="40dp"
+            android:paddingBottom="40dp"
+
+            android:background="@drawable/white_border_bkg">
+
+            <TextView
+                android:id="@+id/baskets_penny_new_baskets_text"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerHorizontal="true"
+
+                android:fontFamily="@font/poppins_bold"
+                android:text="@string/new_baskets"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/baskets_penny_sales_inventory_text"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/baskets_penny_new_baskets_text"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+
+                android:fontFamily="@font/lexend_giga"
+                android:text="@string/latest_sales_inventory_just_arrived_at"
+                android:textColor="@color/white"
+                android:textSize="9sp"
+                android:textAlignment="center"
+                tools:ignore="SmallSp" />
+
+            <ImageView
+                android:id="@+id/baskets_penny_logo_text"
+
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/baskets_penny_sales_inventory_text"
+                android:layout_marginTop="5dp"
+
+                android:src="@drawable/penny_logo_white"/>
+
+            <ImageView
+                android:id="@+id/baskets_penny_spinning_logo"
+
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/baskets_penny_logo_text"
+                android:layout_marginTop="30dp"
+
+                android:src="@drawable/penny_logo_basket"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/baskets_penny_spinning_logo"
+                android:layout_marginTop="10dp"
+
+                android:fontFamily="@font/lexend_giga"
+                android:text="@string/processing"
+                android:textColor="@color/white"
+                android:textSize="9sp"
+                android:textAlignment="center"
+                tools:ignore="SmallSp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

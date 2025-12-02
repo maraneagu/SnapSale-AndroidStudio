@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/scraping_progress_layout"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+
+        android:layout_centerInParent="true"
+        android:padding="15dp"
+
+        android:background="@drawable/scraping_progress_bkg">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerInParent="true"
+            android:paddingTop="40dp"
+            android:paddingBottom="40dp"
+
+            android:background="@drawable/yellow_border_bkg">
+
+            <TextView
+                android:id="@+id/scraping_daily_check_text"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerHorizontal="true"
+
+                android:fontFamily="@font/poppins_bold"
+                android:text="@string/daily_check"
+                android:textSize="18sp"
+                android:textColor="@color/yellow"
+                />
+
+            <TextView
+                android:id="@+id/scraping_sales_inventory_text"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/scraping_daily_check_text"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+
+                android:fontFamily="@font/lexend_giga"
+                android:text="@string/wait_to_see_if_new_sales_inventories_arrived_from_the_stores"
+                android:textColor="@color/yellow"
+                android:textSize="9sp"
+                android:textAlignment="center"
+                tools:ignore="SmallSp" />
+
+            <ImageView
+                android:id="@+id/scraping_spinning_logo"
+
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/scraping_sales_inventory_text"
+                android:layout_marginTop="30dp"
+
+                android:src="@drawable/logo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/scraping_spinning_logo"
+                android:layout_marginTop="10dp"
+
+                android:fontFamily="@font/lexend_giga"
+                android:text="@string/processing"
+                android:textColor="@color/yellow"
+                android:textSize="9sp"
+                android:textAlignment="center"
+                tools:ignore="SmallSp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

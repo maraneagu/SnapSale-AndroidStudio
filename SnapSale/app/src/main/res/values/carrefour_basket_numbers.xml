@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="carrefour_basket_numbers">
+        <item>9</item>
+        <item>9 7</item>
+        <item>7 7 7 7 7 7</item>
+        <item>7 7 7</item>
+        <item>7 7 7 7 7 7 7 7</item>
+        <item>7 7 7 7</item>
+        <item>9 9</item>
+        <item>9 9</item>
+        <item>9</item>
+        <item>9</item>
+    </string-array>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="penny_categories">
+        <item>vegetables</item>
+        <item>dairy</item>
+        <item>meat</item>
+        <item>frozenGoods</item>
+        <item>bakedGoods</item>
+        <item>basics</item>
+        <item>baby</item>
+        <item>tins</item>
+        <item>sweets</item>
+        <item>drinks</item>
+        <item>cleaning</item>
+        <item>cosmetics</item>
+        <item>leisure</item>
+    </string-array>
+</resources>
